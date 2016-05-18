@@ -1,0 +1,67 @@
+body{
+	font-family: Muli;
+}
+.navbar-brand{
+	font-weight: 400 !important;
+	letter-spacing: 0.8em;
+	font-family: Playfair Display;
+
+}
+.navbar-default{
+	background-color: white !important;
+	border:0px solid !important;
+}
+#banner{
+	display: block;
+	text-align: center;
+	margin-top: 60px;
+
+}
+#banner h1{
+	font-family: Playfair Display;
+	display: inline-block;
+	letter-spacing: 0.8em;
+	font-weight: 400;
+	font-size: 3em;
+	text-align: center;
+	padding:30px 0px 30px 40px;
+	border: 4px solid black;
+}
+#subtitle{
+	display: block;
+	text-align: center;
+	font-family: Muli;
+	font-size: 2em;
+	margin-top: 20px;
+}
+#drpdwn{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+.primaryq{
+	display: block;
+	text-align: center;
+	margin-top: 120px;
+}
+.vo{
+	width:50% !important;
+	border-radius: 20px !important;
+	display: inline-block;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+}
+#malfem{
+	display: block;
+	text-align: center;
+	width: 40%;
+	margin-top: 50px;
+}
+th,td{
+	border:none !important;
+	text-align: center;
+}

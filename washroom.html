@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>TLDR! Washrooms</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="maincss.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="index.html">TLDR!</a>
+    </div>
+    <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Contact Us</a></li> 
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+<!--Template Ends-->
+<!--Building Type-->
+<h3 id="prm" class="primaryq container">Which type of building are you designing?</h3>
+<div id="drpdwn" class="container">
+<!--<p>Based on National Building Code of India, 2005 Part 9: Table 9 to 22</p>-->
+<select class="form-control vo" onchange="report(this.value)">
+<option select="selected" value="">Building Type</option>
+<option value="office">Office</option>
+<option value="factory">Factory</option>
+<option value="hall">Cinema, Multiplex Cinema, Concerts, Convention Hall or Theatre</option>
+<option value="art">Art Gallery, Library or Museum</option>
+<option value="hospital">Hospital</option>
+<option value="hostel">Hotel</option>
+<option value="restaurant">Restaurant</option>
+<option value="school">School or Educational Building</option>
+<option value="hostel">Hostel</option>
+<option value="market">Market</option>
+<option value="transport">Airport or Railway Station</option>
+</select>
+</div>
+<div id="malfem" class="container"></div>
+<div id="note" class="container"></div>
+
+
+
+
+
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <p class="navbar-text pull-left">Created by Ashris and Abhishek</p>
+    <a class="navar-btn btn-primary btn pull-right">Like</a>
+  </div>
+</div>
+</body>
+</html>
